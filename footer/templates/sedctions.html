@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style>
+        .d {
+            display: flex;
+        }
+        .i {
+            display: block;
+            flex: 5;
+        }
+
+        header {
+            top: 0%;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        nav {
+            top: 30%;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        section {
+            top: 50%;
+            flex: 5;
+            border: 2px solid black;
+            text-align: center;
+            height: 300px;
+        }
+
+        aside {
+            border: 2px solid black;
+            text-align: center;
+            flex: 1;
+            height: 600px;
+        }
+
+        article {
+            flex: 5;
+            margin: 0px;
+            border: 2px solid black;
+            height: 296px;
+        }
+        footer {
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>header</header>
+<nav>nav</nav>
+<div class="d">
+    <div class="i">
+        <section>
+            <p>section</p>
+        </section>
+        <article>article</article>
+    </div>
+
+        <aside>aside</aside>
+
+</div>
+<footer>hey</footer>
+
+</body>
+</html>

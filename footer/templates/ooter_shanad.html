@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>footer</title>
+    <style>
+
+
+    </style>
+</head>
+<body style="background: lightblue;width: 100%;height: auto">
+<footer style="display:block;position :relative">
+    <h1>email:sahandha1391@gmail.com</h1>
+    <blockquote
+            cite="https://stackoverflow.com/questions/79526636/why-doesnt-lenobj-go-through-getattribute-and-how-can-i-override-this-be">
+        A question from stackoverflow:
+        I've noticed that calling obj.__len__() explicitly goes through obj.__getattribute__("__len__"), but calling
+        len(obj) does not. A quick search suggests that built - in functions like len(), dir(), and repr() optimize
+        their calls by accessing attributes directly via the object's internal structure rather than going through
+        __getattribute__, except when dealing with private attributes.
+
+        Even if I clear obj.__dict__, len(obj) still bypasses __getattribute__. I also tried overriding obj.__dir__()
+        and removing all dunder methods it returns, but len(obj) still avoids __getattribute__.
+
+        Is there any way to override this behavior and force len(obj) (and the others) to go through
+        __getattribute__("__len__")?
+        obj.__dict__ isn't the internal structure; the reference you read is referring to the underlying PyObject
+        structure in the C implementation. –
+        chepner
+        Commented1 hour ago
+        Thank you. Do you have any idea to access the internal structure? –
+        Ziv Sion
+        Commented1 hour ago
+        You don't they are implementation-specific and only exist in, for example, CPython. They aren't really part of
+        Python-proper. –
+        chepner
+        Commented1 hour ago
+        I think the real issue here, though, is that certain magic methods simply aren't accessed via the instance, only
+        the class. len(obj) is implemented as obj.__class__.__len__(), not obj.__len__(). –
+        chepner
+        Commented1 hour ago
+    </blockquote>
+    <div class="container">
+        <div class="platform">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.YUC9nd4IzuaQDHc6L3aAOAHaHa&w=200&h=200&c=7" alt="reddit">
+            <a href="https://www.reddit.com/" target="_blank" style="color: red">
+                <p>reddit</p>
+            </a>
+        </div>
+        <div class="platform">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.YUC9nd4IzuaQDHc6L3aAOAHaHa&w=200&h=200&c=7" alt="reddit">
+            <a href="https://www.reddit.com/" target="_blank" style="color: red">
+                <p>reddit</p>
+            </a>
+        </div>
+        <div class="platform">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.YUC9nd4IzuaQDHc6L3aAOAHaHa&w=200&h=200&c=7" alt="reddit">
+            <a href="https://www.reddit.com/" target="_blank" style="color: red">
+                <p>reddit</p>
+            </a>
+        </div>
+        <div class="platform">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.YUC9nd4IzuaQDHc6L3aAOAHaHa&w=200&h=200&c=7" alt="reddit">
+            <a href="https://www.reddit.com/" target="_blank" style="color: red">
+                <p>reddit</p>
+            </a>
+        </div>
+
+
+    </div>
+</footer>
+</body>
+</html>
