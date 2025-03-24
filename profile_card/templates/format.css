@@ -1,0 +1,18 @@
+.card {
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+    mso-border-effect: box;
+    width: 75%;
+    height: auto;
+    background: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container:hover {
+    background: whitesmoke;
+}
