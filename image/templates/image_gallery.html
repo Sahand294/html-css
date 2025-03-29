@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery with Hover Text</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        img {
+            width: 40%;
+            height: auto;
+            transition: opacity 0.5s ease;
+        }
+
+        .i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            text-align: center;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .image-container:hover img {
+            opacity: 0.3;
+        }
+
+        .image-container:hover .i {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img  src="picpic.jpg" alt="Tiger Drinking Water">
+        <div class="i">tiger drinking water</div>
+    </div>
+
+    <div class="image-container">
+        <img  src="picpic.jpg" alt="Madara with Three Eyes">
+        <div class="i">3 eyed madara</div>
+    </div>
+
+    <div class="image-container">
+        <img  src="picpic.jpg" alt="Roaring Tiger">
+        <div class="i">roaring tiger</div>
+    </div>
+
+    <div class="image-container">
+        <img src="picpic.jpg" alt="Man Getting Eaten">
+        <div class="i">man getting eaten</div>
+    </div>
+
+    <div class="image-container">
+        <img  src="picpic.jpg" alt="Blind Madara">
+        <div class="i">blind madara</div>
+    </div>
+</body>
+</html>

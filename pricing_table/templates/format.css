@@ -9,6 +9,10 @@
 .pro {
     background: gold;
 }
+.pro button:hover {
+    background: goldenrod;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
