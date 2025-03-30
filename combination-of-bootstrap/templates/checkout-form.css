@@ -23,6 +23,7 @@ p {
     font-size: 1.0rem;
 }
 .billing {
+    order: 1;
     flex: 3;
     position: relative;
     width: 100%;
@@ -35,7 +36,13 @@ p {
     display: flex;
     width: 100%;
     height: auto;
+    flex-direction: column;
     gap: 20px;
+}
+@media screen and (min-width:600px){
+    .names {
+        flex-direction: row;
+    }
 }
 .twoinput {
     width: 100%;
@@ -159,8 +166,10 @@ hr {
     width: auto;
     height: auto;
     display: flex;
+    flex-direction: row-reverse;
 }
 .aside {
+    order: 0;
     position: relative;
     flex: 1;
     width: 20%;
