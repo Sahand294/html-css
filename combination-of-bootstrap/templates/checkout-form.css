@@ -166,7 +166,12 @@ hr {
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+}
+@media screen and (min-width: 600px){
+    .container {
+        flex-direction: row-reverse;
+    }
 }
 .aside {
     order: 0;
