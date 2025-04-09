@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77d606cc-f88b-4895-9884-da124f732fe8" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/main-content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsive/body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsive/html-responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsive/responsive-css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/a very big one.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/a very big one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/main-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/main-content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big-nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big-nav-bar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +199,7 @@
       <workItem from="1742846505566" duration="269000" />
       <workItem from="1742846806228" duration="2138000" />
       <workItem from="1743193642547" duration="28356000" />
-      <workItem from="1743613177612" duration="39978000" />
+      <workItem from="1743613177612" duration="46422000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -284,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743876962732</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <option name="closed" value="true" />
+      <created>1744055959506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744055959506</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

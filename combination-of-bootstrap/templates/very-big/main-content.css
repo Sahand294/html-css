@@ -1,0 +1,18 @@
+.img-container {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+.body {
+    position: relative;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
