@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="77d606cc-f88b-4895-9884-da124f732fe8" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/a very big one.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/a very big one.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/main-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/main-content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big-nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big-nav-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/gg.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/gg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/gg.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/gg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
       <recent name="S:\practice\httml-css\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\practice\httml-css\combination-of-bootstrap\templates\very-big\example" />
       <recent name="S:\practice\httml-css\footer\templates" />
     </key>
   </component>
@@ -199,7 +202,7 @@
       <workItem from="1742846505566" duration="269000" />
       <workItem from="1742846806228" duration="2138000" />
       <workItem from="1743193642547" duration="28356000" />
-      <workItem from="1743613177612" duration="46422000" />
+      <workItem from="1743613177612" duration="56384000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -289,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744055959506</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <option name="closed" value="true" />
+      <created>1744234496538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744234496538</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
