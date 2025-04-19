@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77d606cc-f88b-4895-9884-da124f732fe8" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/mini-project/about-us.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/about-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/contact-us.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/contact-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/nav-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/products.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-project/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httml-css.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httml-css.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/logo-dark-main-257x84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/logo-dark-main-257x84.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-project/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +38,12 @@
     &quot;assignee&quot;: &quot;Sahand294&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sahand294/https-css.git&quot;,
-    &quot;accountId&quot;: &quot;b90e6b2e-bb94-44b6-a9b5-89fe7a897e01&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sahand294/https-css.git",
+    "accountId": "085a260f-9456-4b85-aa72-af0a2b1ca9f4"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -325,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744310563483</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <option name="closed" value="true" />
+      <created>1745070688439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745070688439</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
