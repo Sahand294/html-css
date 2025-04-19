@@ -1,6 +1,6 @@
 .ad {
     position: relative;
-    display: none;
+    display: block;
     width: 100%;
     flex: 2;
     height: 40px;
@@ -22,15 +22,29 @@
     width: 100%;
     display:block;
 }
-
+.info {
+    position: absolute;
+    flex: 2;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: black;
+    /*border: 1px solid white;*/
+    top: 119.5px;
+}
 body {
     margin: 00px;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 990px) {
     .ad {
-        display: block;
+        display: none;
     }
+    .info {
+        position: absolute;
+        top: 80px;
+    }
+
 }
 
 
@@ -38,14 +52,7 @@ body {
     border-radius: 1px;
 }
 
-.info {
 
-    flex: 2;
-    display: flex;
-    width: 100%;
-    height: auto;
-    background: black;
-}
 .block {
     display: block;
     margin-bottom: 300px;
@@ -77,23 +84,30 @@ body {
     color:white;
     /*font-size: 5px;*/
 }
+.info-text-text span {
+    cursor: pointer;
+    color:white;
+}
 .info-text {
     flex:50;
     justify-content: center;
 }
 .nav-container {
+    display: flex;
     flex-direction: row;
     position: sticky;
     top: 80px;
     z-index: 15;
     width: 100%;
-    display: flex;
+    margin-top: 38.5px;
     background: white;
     /*gap: 00px;*/
     flex: 3;
     max-height: 80px;
     min-height: 90px;
-    border-bottom: 1px solid #eaeced;
+    border: 2px solid black;
+    /*border-bottom: 1px solid #eaeced;*/
+    border-top: 1px solid white;
     /*align-items: center;*/
     text-align: left;
 }
@@ -101,6 +115,7 @@ body {
     max-height: 70px;
     display: flex;
     width: 200px;
+    flex: 20;
 }
 .nav-options-container {
     background: white;
@@ -116,6 +131,9 @@ body {
     box-sizing: border-box;
     margin: 0;
 }
+.info-container{
+
+}
 .nav-options-button {
     margin-top:29px ;
     width: 40px;
@@ -128,15 +146,19 @@ body {
     margin-left: 5px;
 }
 .info-button {
+    margin-right: 20px;
     z-index: 999999;
-    margin-top: 29px;
-    margin-left: 600px;
+    margin-top: 15px;
+    max-width: 10px;
     display: none;
     flex-direction: column;
     gap: 3px;
-    height: 100px;
+    height: 50px;
     flex: 80;
-    justify-content: right;
+    justify-content:  center;
+}
+.i {
+    position: absolute;
 }
 .info-button span {
     border-radius: 50px;
@@ -146,13 +168,15 @@ body {
 }
 
 @media screen and (max-width: 780px) {
+    .info-container{
+        justify-content: right;
+    }
     .nav-container {
-        margin-top: -120px;
         flex-direction: column;
         align-items: flex-start;
         gap: 00px;
         height: 60px;
-        border: 2px solid black;
+        margin: 0;
     }
     .nav-options-container {
         max-width: 100px;
@@ -167,6 +191,7 @@ body {
         border-top: 1px solid #eaeced;
     }
     .info {
+        right: 0;
         z-index: 51;
         position: sticky;
         display: none;
@@ -175,10 +200,8 @@ body {
         width: 200px;
         height: auto;
         border: 1px solid #eaeced;
-        top:170px;
-        left: 560px;
-        /*margin-top: 170px;*/
-        /*margin-left: 562px;*/
+        top: 170px;
+        left: 73%;
     }
     .info-text-container{
         flex-direction: column;
@@ -194,7 +217,7 @@ body {
     .info-text-text {
         color: black;
     }
-    .info-text-text a {
+    .info-text-text span {
         color: black;
     }
     .info.active {
@@ -209,13 +232,19 @@ body {
         position: relative;
         margin-bottom: 00px;
     }
+    .nav-title {
+        width: 100%;
+    }
     .nav-options-button {
         cursor: pointer;
         display:flex;
     }
     .info-button {
-        cursor: pointer;
+
         display:flex;
+    }
+    .info-button span {
+        cursor: pointer;
     }
     .nav-options-container.active {
         /*top: 80px;*/
@@ -237,9 +266,7 @@ body {
     margin-top: 20px;
     flex:80;
     margin-left: 50px;
-    max-width: 20px;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
 
 }
 .nav-title-title img {
@@ -283,7 +310,7 @@ h1 {
 .screen {
     box-sizing: border-box;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 10;
     padding: 10px;
     max-height: 80px;

@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77d606cc-f88b-4895-9884-da124f732fe8" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/mini-project/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/contact-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/nav-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini-project/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httml-css.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httml-css.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/a very big one.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/gg.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/gg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/gg.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/gg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/example/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/logo-dark-main-257x84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mini-project/logo-dark-main-257x84.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/combination-of-bootstrap/templates/very-big/very-big-nav-bar.css" afterDir="false" />
     </list>
@@ -71,7 +81,9 @@
     &quot;Python.profilecard.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;S:/projects/bank-account-sql-version&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -79,7 +91,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -92,11 +104,12 @@
       <recent name="S:\practice\httml-css\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\practice\httml-css\mini-project" />
       <recent name="S:\practice\httml-css\combination-of-bootstrap\templates\very-big\example" />
       <recent name="S:\practice\httml-css\footer\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.127.0.0.1:5000">
+  <component name="RunManager">
     <configuration name="127.0.0.1:5000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:5000">
       <method v="2" />
     </configuration>
@@ -174,10 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.127.0.0.1:5000" />
         <item itemvalue="Python.profilecard" />
         <item itemvalue="Python.navigationbar" />
-        <item itemvalue="JavaScript Debug.login_form.html" />
         <item itemvalue="Python.profilecard" />
       </list>
     </recent_temporary>
@@ -185,8 +196,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -202,7 +212,14 @@
       <workItem from="1742846505566" duration="269000" />
       <workItem from="1742846806228" duration="2138000" />
       <workItem from="1743193642547" duration="28356000" />
-      <workItem from="1743613177612" duration="56384000" />
+      <workItem from="1743613177612" duration="66534000" />
+      <workItem from="1744399778733" duration="273000" />
+      <workItem from="1744404986149" duration="175000" />
+      <workItem from="1744413341631" duration="19000" />
+      <workItem from="1744457287920" duration="9003000" />
+      <workItem from="1744560626573" duration="10089000" />
+      <workItem from="1744669097692" duration="23000" />
+      <workItem from="1744669162725" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -300,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744234496538</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <option name="closed" value="true" />
+      <created>1744310563483</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744310563483</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +348,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/httml_css$main.coverage" NAME="main Coverage Results" MODIFIED="1742232471374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/httml_css$navigationbar.coverage" NAME="navigationbar Coverage Results" MODIFIED="1742237338271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigationbar" />
     <SUITE FILE_PATH="coverage/httml_css$profilecard.coverage" NAME="profilecard Coverage Results" MODIFIED="1742238921370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/profile_card" />
+    <SUITE FILE_PATH="coverage/httml_css$navigationbar.coverage" NAME="navigationbar Coverage Results" MODIFIED="1742237338271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigationbar" />
   </component>
 </project>
