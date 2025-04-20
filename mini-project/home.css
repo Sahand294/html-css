@@ -29,5 +29,9 @@
 .specail-card img {
     width: 140px;
     height: 140px;
-    border: 1px solid black;
+}
+@media screen and (max-width:650px){
+    .specail-products {
+        flex-direction: column;
+    }
 }
