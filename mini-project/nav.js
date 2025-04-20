@@ -5,4 +5,3 @@ document.addEventListener("DOMContentLoaded",function () {
         link_target.classList.toggle("active")
     })
 })
-document.addEventListener
