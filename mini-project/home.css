@@ -1,4 +1,5 @@
 .specail-products {
+    width: 100%;
     padding: 20;
     display: flex;
     box-sizing: border-box;
@@ -14,9 +15,9 @@
     justify-content: center;
     flex: 6;
     box-shadow: 15px solid black;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 230px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 229px;
     max-height: 230px;
     justify-content: center;
     border: 2px solid black;
