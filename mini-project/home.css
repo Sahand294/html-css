@@ -1,5 +1,4 @@
 .specail-products {
-
     padding: 20;
     display: flex;
     box-sizing: border-box;
@@ -11,13 +10,14 @@
     border: 5px solid black;
 }
 .specail-card {
+    align-items: center;
     justify-content: center;
     flex: 6;
     box-shadow: 15px solid black;
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 230px;
+    max-height: 230px;
     justify-content: center;
     border: 2px solid black;
     background: whitesmoke;
@@ -28,4 +28,5 @@
 .specail-card img {
     width: 140px;
     height: 140px;
+    border: 1px solid black;
 }
