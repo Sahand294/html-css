@@ -13,13 +13,14 @@
     border: 5px solid black;
 }
 .specail-card {
+
     gap: 10px;
     align-items: center;
     justify-content: center;
     flex: 6;
     box-shadow: 15px solid black;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 400px;
+    max-width: 400px;
     min-height: 229px;
     max-height: 230px;
     justify-content: center;
@@ -35,14 +36,20 @@
     margin-top: -9px;
 }
 .specail-card-buy-button {
-    background: #0A73F5;
+    border: 1px solid #0A73F5;
+    /* background: #0A73F5; */
     border-radius: 50px;
     margin-right: 4px;
     height: 30px;
     width: 150px;
-    color: white;
+    color: #0A73F5;
     margin-top: -10px;
+    cursor: pointer;
 
+}
+.specail-card-buy-button:hover {
+    background: #0A73F5;
+    color: white;
 }
 @media screen and (max-width:650px){
     .specail-products {
