@@ -14,7 +14,7 @@
 }
 .specail-card {
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex: 6;
     box-shadow: 15px solid black;
     min-width: 200px;
@@ -29,7 +29,6 @@
     display: flex;
 }
 .specail-card img {
-    align-self: top;
     width: 200px;
     height: 140px;
 }
