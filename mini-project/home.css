@@ -29,6 +29,7 @@
     display: flex;
 }
 .specail-card img {
+    align-self: top;
     width: 200px;
     height: 140px;
 }
