@@ -3,14 +3,13 @@
     padding: 20;
     display: flex;
     box-sizing: border-box;
-    box-shadow: 10px  solid black;
     flex-wrap: wrap;
     background: white;
     gap: 10px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 .specail-card {
 
@@ -18,7 +17,7 @@
     align-items: center;
     justify-content: center;
     flex: 6;
-    box-shadow: 15px solid black;
+    box-shadow: 10px 10px 20px 5px black;
     min-width: 400px;
     max-width: 400px;
     min-height: 229px;
