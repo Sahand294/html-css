@@ -32,7 +32,7 @@
 .specail-card img {
     width: 200px;
     height: 140px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 .specail-card-buy-button {
     background: #0A73F5;
