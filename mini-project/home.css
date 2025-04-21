@@ -31,6 +31,7 @@
 .specail-card img {
     width: 200px;
     height: 140px;
+    margin-bottom: 20px;
 }
 @media screen and (max-width:650px){
     .specail-products {
