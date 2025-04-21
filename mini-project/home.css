@@ -1,4 +1,5 @@
 .specail-products {
+    flex-direction: column;
     margin-top: 10px;
     width: 100%;
     padding: 20;
@@ -17,6 +18,9 @@
 }
 .specail-products-desc {
     font-size: 10px;
+}
+.specail-card-container{
+    display: flex;
 }
 .specail-card {
 
