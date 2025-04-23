@@ -95,7 +95,7 @@
     border: 2px solid black;
     display: flex;
     flex: 1;
-    height: 500px;
+    height: 600px;
     width: fit-content;
     flex-direction: column;
     justify-content: center;
@@ -112,10 +112,10 @@
     cursor: pointer;
 }
 .category-cards img {
-    margin-top: -190px;
+    margin-top: -1px;
     align-self: flex-start;
     width: 500px;
-    height: 300px;
+    height: 500px;
 }
 .category-cards-desc {
     color: gray;
