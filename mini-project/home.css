@@ -29,7 +29,7 @@
     display: flex;
 }
 .specail-card {
-
+    margin-top: 20px;
     gap: 10px;
     align-items: center;
     justify-content: center;
