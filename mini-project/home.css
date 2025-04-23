@@ -104,7 +104,7 @@
     text-align: center;
 }
 .category-cards-view-info {
-    height: 50px;
+    height: 300px;
     color: white;
     background: #0A73F5;
     border-radius: 5px;
@@ -112,7 +112,7 @@
     cursor: pointer;
 }
 .category-cards img {
-    margin-top: -100px;
+    margin-top: -190px;
     align-self: flex-start;
     width: 500px;
     height: 200px;
