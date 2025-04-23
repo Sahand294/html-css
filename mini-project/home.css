@@ -110,8 +110,9 @@
     width: 200px;
     cursor: pointer;
 }
-.category-cards-title {
-    
+.category-cards img {
+    width: 100px;
+    height: 100px;
 }
 .category-cards-desc {
     color: gray;
