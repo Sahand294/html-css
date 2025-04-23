@@ -80,7 +80,7 @@
     z-index: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    /* width: 100%; */
+    width: fit-content;
     height: fit-content;
     position: relative;
     gap: 20px;
