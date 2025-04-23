@@ -76,10 +76,11 @@
 }
 .categories-container {
     display: flex;
+
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 100%; */
-    height: fit-content;
+    height: 1000px;
     position: relative;
     gap: 20px;
     justify-content: center;
