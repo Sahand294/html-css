@@ -75,6 +75,7 @@
     }
 }
 .categories-container {
+    margin-top: 20px;
     display: flex;
     z-index: 0;
     flex-direction: row;
