@@ -80,7 +80,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 100%; */
-    height: 1000px;
+    height: fit-content;
     position: relative;
     gap: 20px;
     justify-content: center;
@@ -91,11 +91,11 @@
 .category-cards{
     position: relative;
     z-index: 0;
-    max-width: 500px;
+    max-width: 350px;
     border: 2px solid black;
     display: flex;
     flex: 1;
-    height: 600px;
+    height: 500px;
     width: fit-content;
     flex-direction: column;
     justify-content: center;
@@ -115,7 +115,7 @@
 .category-cards img {
     margin-top: -1px;
     align-self: flex-start;
-    width: 500px;
+    width: 350px;
     height: 500px;
 }
 .category-cards-desc {
