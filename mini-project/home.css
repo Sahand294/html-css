@@ -112,7 +112,7 @@
     cursor: pointer;
 }
 .category-cards img {
-    position: absolute;
+    margin-top: -100px;
     align-self: flex-start;
     width: 500px;
     height: 200px;
