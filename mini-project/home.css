@@ -89,6 +89,7 @@
     border: 2px solid black;
 }
 .category-cards{
+    z-index: 0;
     max-width: 500px;
     border: 2px solid black;
     display: flex;
