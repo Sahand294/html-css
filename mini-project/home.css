@@ -127,4 +127,6 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
