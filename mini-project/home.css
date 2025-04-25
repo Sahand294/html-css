@@ -25,7 +25,7 @@
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
     display: flex;
 }
 .specail-card {
@@ -69,6 +69,7 @@
 @media screen and (max-width:650px){
     .specail-card-container {
         flex-direction: column;
+        gap: 30px;
     }
     .category-cards-container {
         flex-direction: column;
