@@ -2,7 +2,7 @@
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
-    padding: 20;
+    padding: 20px;
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -15,6 +15,9 @@
 }
 .specail-products-header {
 
+}
+* {
+    border-radius: 10px;
 }
 .specail-products-desc {
     color: gray;
@@ -52,7 +55,6 @@
 }
 .specail-card-buy-button {
     border: 1px solid #0A73F5;
-    /* background: #0A73F5; */
     border-radius: 50px;
     margin-right: 4px;
     height: 30px;
